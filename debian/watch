@@ -1,0 +1,5 @@
+Version: 5
+
+Source: https://github.com/wmww/gtk-layer-shell/tags
+Matching-Pattern: .*/v?(\d\S+)\.tar\.gz
+Filenamemangle: s/.+\/v?(\d\S+)\.tar\.gz/gtk-layer-shell-$1\.tar\.gz/
